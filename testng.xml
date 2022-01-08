@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <listeners>
+		<listener class-name="com.qa.reports.ExtentReporterNG" />
+		
+	</listeners>
+    <classes>
+      <class name="com.qa.tests.HomePageTest"/>
+      <class name="com.qa.tests.DealsPageTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
